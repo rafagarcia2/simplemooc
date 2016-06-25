@@ -1,0 +1,25 @@
+DOCUMENTAÇÃO CURSO DJANGO - UDEMY
+
+- USAR VIRTUALENV COM PYTHON 3:
+	virtualenv -p /usr/python3 env4simplemooc
+	source env4simplemooc/bin/activate
+
+- INICIAR O PROJETO DJANGO
+	django-admin startproject simplemooc
+
+BANCO DE DADOS: sqlite
+
+- SINCRONIZANDO O BANCO:
+	python manage.py migrate
+
+
+INICIAR APLICAÇÃO:
+	python manage.py startapp core
+
+	* A pasta da aplicação foi movida para 'simplemooc'; 
+	* Configuração no APPS do setting.
+
+	* Criação da URL e do method 'home';
+
+TEMPLATES:
+	 
