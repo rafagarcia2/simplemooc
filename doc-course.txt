@@ -22,4 +22,9 @@ INICIAR APLICAÇÃO:
 	* Criação da URL e do method 'home';
 
 TEMPLATES:
-	 
+	* São criados na pasta template e renderizados na view.
+
+	* Os arquivos html, ficam na própria pasta html, já os css ficam na pasta static.
+	* A manipulação do HTML é operada por tags do Django: {{% block content %}}
+
+	* A utilização do Django para Templates é bem poderosa.
