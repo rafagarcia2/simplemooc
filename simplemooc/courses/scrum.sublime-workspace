@@ -1,0 +1,376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"conte",
+				"context"
+			],
+			[
+				"s",
+				"send_mail_template"
+			],
+			[
+				"co",
+				"core	module"
+			],
+			[
+				"DE",
+				"DEFAULT_FROM_EMAIL"
+			],
+			[
+				"su",
+				"subject"
+			],
+			[
+				"EMAIL",
+				"EMAIL_HOST"
+			],
+			[
+				"EMAIL_HO",
+				"EMAIL_HOST_USER"
+			],
+			[
+				"for",
+				"form	statement"
+			],
+			[
+				"For",
+				"Form	class"
+			],
+			[
+				"cont",
+				"context	param"
+			],
+			[
+				"template",
+				"template_name"
+			],
+			[
+				"tem",
+				"template_name	param"
+			],
+			[
+				"Cour",
+				"CourseAdmin〔class〕"
+			],
+			[
+				"ad",
+				"admin	module"
+			],
+			[
+				"C",
+				"CourseManage	class"
+			],
+			[
+				"re",
+				"regex	param"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/rafael/Documentos/Django/scrum/scrum/watercooler.py",
+			"settings":
+			{
+				"buffer_size": 3150,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packe",
+		"selected_items":
+		[
+			[
+				"packe",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rafael/Documentos/Django/scrum/scrum",
+		"/home/rafael/Documentos/Django/scrum/scrum/board"
+	],
+	"file_history":
+	[
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/core/mail.py",
+		"/home/rafael/Área de Trabalho/mail.py",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/courses/templates/courses/details.html",
+		"/home/rafael/Área de Trabalho/course.html",
+		"/home/rafael/Área de Trabalho/details.html",
+		"/home/rafael/Documentos/observable.py",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/courses/admin.py",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/courses/templates/courses/index.html",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/urls.py",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/core/templates/base.html",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/courses/urls.py",
+		"/home/rafael/course-image.png",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/core/urls.py",
+		"/home/rafael/youmate/views.py",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/rafael/Documentos/youmate/Auth - youmate.txt",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/settings.py",
+		"/home/rafael/youmate/Documentação.txt",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Plain text.sublime-settings",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/rafael/Documentos/youmate/views.py",
+		"/home/rafael/youmate/youmate/problems",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/core/templates/contact.html",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/core/views.py",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/core/static/css/styles.css",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/core/templates/home.html",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/core/url.py",
+		"/home/rafael/Área de Trabalho/contact.html",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/core/models.py",
+		"/home/rafael/Área de Trabalho/base.html",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/simplemooc/core/home.html",
+		"/home/rafael/Documentos/Django/Curso Django - Udemy.txt",
+		"/home/rafael/Documentos/Django/simplemooc/simplemooc/Curso Django - Udemy.txt",
+		"/home/rafael/youmate/youmate/requirements.txt",
+		"/home/rafael/youmate/id_rsa.pub"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"django",
+			"token",
+			">\n",
+			"css"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			">\n"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/rafael/Documentos/Django/scrum/scrum/watercooler.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "scrum.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"for",
+				"simplemooc/courses/forms.py"
+			],
+			[
+				"view",
+				"simplemooc/courses/views.py"
+			],
+			[
+				"ba",
+				"simplemooc/core/templates/base.html"
+			],
+			[
+				"ur",
+				"simplemooc/core/urls.py"
+			],
+			[
+				"url",
+				"simplemooc/urls.py"
+			],
+			[
+				"bas",
+				"simplemooc/core/templates/base.html"
+			],
+			[
+				"hom",
+				"simplemooc/core/templates/home.html"
+			],
+			[
+				"base",
+				"simplemooc/core/templates/base.html"
+			],
+			[
+				"con",
+				"simplemooc/core/templates/contact.html"
+			],
+			[
+				"model",
+				"simplemooc/core/models.py"
+			],
+			[
+				"sty",
+				"simplemooc/core/static/css/styles.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
