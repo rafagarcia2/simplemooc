@@ -1,0 +1,10 @@
+# Arquivos ignorados pelo git
+
+*.egg-info
+*.pot
+*.py[co]
+.tox/
+__pycache__
+
+build/
+tests/report/

@@ -28,3 +28,4 @@ def details(request, slug):
     context['form'] = form
     template_name = 'courses/details.html'
     return render(request, template_name, context)
+ 
