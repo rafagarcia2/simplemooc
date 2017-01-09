@@ -144,3 +144,4 @@ LOGIN_URL = 'accounts:login'
 LOGIN_REDIRECT_URL = 'core:home'
 LOGOUT_URL = 'accounts:logout'
 APPEND_SLASH = False
+AUTH_USER_MODEL = 'accounts.User'
