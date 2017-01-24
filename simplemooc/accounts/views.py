@@ -2,9 +2,11 @@ from django.contrib.auth import login, authenticate, get_user_model
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import PasswordChangeForm, SetPasswordForm
+from django.contrib import messages
 
 from .forms import RegisterForm, EditAccountForm, PasswordResetForm
 from .models import PasswordReset
+from simplemooc.courses.models import Enrollment
 
 User = get_user_model()
 
@@ -12,7 +14,9 @@ User = get_user_model()
 @login_required
 def dashboard(request):
     template_name = "accounts/dashboard.html"
-    return render(request, template_name)
+    context = {}
+    context['enrollments'] = Enrollment.objects.filter(user=request.user)
+    return render(request, template_name, context)
 
 
 def register(request):
@@ -65,8 +69,8 @@ def editar(request):
         form = EditAccountForm(request.POST, instance=request.user)
         if form.is_valid():
             form.save()
-            form = EditAccountForm(instance=request.user)
-            context['sucess'] = True
+            messages.success(request, 'Os dados da sua conta foram alterados com sucesso!')
+            return redirect('accounts:dashboard')
     else:
         form = EditAccountForm(instance=request.user)
     context['form'] = form
