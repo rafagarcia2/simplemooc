@@ -145,3 +145,18 @@ LOGIN_REDIRECT_URL = 'core:home'
 LOGOUT_URL = 'accounts:logout'
 APPEND_SLASH = False
 AUTH_USER_MODEL = 'accounts.User'
+
+
+# Heroku Settings
+import dj_database_url
+DATABASES['default'] = dj_database_url.config()
+
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PHOTO', 'https')
+
+STATIC_ROOT = 'staticfiles'
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
