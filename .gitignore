@@ -8,3 +8,5 @@ __pycache__
 
 build/
 tests/report/
+local_settings.py
+db.sqlite3
