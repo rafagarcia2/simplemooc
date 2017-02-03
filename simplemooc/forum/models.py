@@ -28,6 +28,7 @@ class Thread(models.Model):
 
 class Reply(models.Model):
 
+    threads = models.ForeignKey(Thread, verbose_name='Tópico', related_name='replies')
     reply = models.TextField('Resposta')
     author = models.ForeignKey(
         settings.AUTH_USER_MODEL, verbose_name='Autor', related_name='replies'
