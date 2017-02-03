@@ -25,6 +25,7 @@ SECRET_KEY = 'yfg16)m7bwy=f2#&xlt$^boejkptj)6(ybw^b6oo#f2#4!c5=m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+TEMPLATE_DEBUG = False  
 
 # Application definition
 
@@ -35,10 +36,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # libs
+    'taggit',
     # Aplicattions locais
     'simplemooc.core',
     'simplemooc.accounts',
     'simplemooc.courses',
+    'simplemooc.forum',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -145,10 +149,6 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PHOTO', 'https')
 
 STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
 
 try:
     from simplemooc.local_settings import *
