@@ -23,10 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'yfg16)m7bwy=f2#&xlt$^boejkptj)6(ybw^b6oo#f2#4!c5=m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
-
+TEMPLATE_DEBUG = False  
 
 # Application definition
 
@@ -37,10 +36,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # libs
+    'taggit',
     # Aplicattions locais
     'simplemooc.core',
     'simplemooc.accounts',
     'simplemooc.courses',
+    'simplemooc.forum',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -73,17 +75,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'simplemooc.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/1.9/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
 
 
 # Password validation
@@ -144,3 +135,22 @@ LOGIN_URL = 'accounts:login'
 LOGIN_REDIRECT_URL = 'core:home'
 LOGOUT_URL = 'accounts:logout'
 APPEND_SLASH = False
+AUTH_USER_MODEL = 'accounts.User'
+
+
+# Heroku Settings
+import dj_database_url
+DATABASES = {
+    'default': dj_database_url.config()
+}
+
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PHOTO', 'https')
+
+STATIC_ROOT = 'staticfiles'
+STATIC_URL = '/static/'
+
+try:
+    from simplemooc.local_settings import *
+except ImportError:
+    pass
