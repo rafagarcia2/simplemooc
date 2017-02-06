@@ -25,7 +25,7 @@ SECRET_KEY = 'yfg16)m7bwy=f2#&xlt$^boejkptj)6(ybw^b6oo#f2#4!c5=m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-TEMPLATE_DEBUG = False  
+TEMPLATE_DEBUG = False
 
 # Application definition
 
@@ -44,6 +44,12 @@ INSTALLED_APPS = [
     'simplemooc.courses',
     'simplemooc.forum',
 ]
+
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
+
+TEMPLATE_CONTEXT_PROCESSORS = TCP + (
+    'django.core.context_processors.request',
+)
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
