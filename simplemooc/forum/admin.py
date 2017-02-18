@@ -4,13 +4,14 @@ from .models import Thread, Reply
 
 class ThreadAdmin(admin.ModelAdmin):
 
-    list_display = ['title', 'author', 'create_at', 'modified']
+    list_display = ['title', 'author', 'create_at', 'updated_at']
     search_fields = ['title', 'author__email', 'body']
+    prepopulated_fields = {'slug': ('title',)}
 
 
 class ReplyAdmin(admin.ModelAdmin):
 
-    list_display = ['thread', 'author', 'create_at', 'modified']
+    list_display = ['threads', 'author', 'create_at', 'updated_at']
     search_fields = ['thread__title', 'author__email', 'reply']
 
 
